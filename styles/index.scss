@@ -1,0 +1,468 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import "~bootstrap/scss/bootstrap";
+@import "public/scss/main.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+.faqs {
+  background: #ecedf3;
+  padding: 90px 10px;
+  padding-top: 0;
+}
+
+.faqs .faq_wrapper {
+  max-width: 572px;
+  width: 100%;
+  margin: 0 auto;
+}
+.faqs .faq_wrapper .title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #22218c;
+}
+.faqs .faq_wrapper .faqs_list {
+  margin-top: 32px;
+}
+.faqs .faq_wrapper .faqs_list .head {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  font-weight: 400;
+  color: #22218c;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.faqs .faq_wrapper .faqs_list .head button {
+  border: 1.2px solid #b0b0b0;
+  border-radius: 100%;
+  min-width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #b0b0b0;
+}
+.faqs .faq_wrapper .faqs_list .head button span {
+  margin-top: -2px;
+}
+.faqs .faq_wrapper .faqs_list .head button.menus span {
+  margin-top: -16px;
+}
+.faqs .faq_wrapper .faq.last_faq {
+  border-bottom: 0 !important;
+}
+.faq {
+  border-bottom: 1px solid #22218c;
+}
+.faqs .faq_wrapper .faqs_list .body {
+  margin-bottom: 12px;
+}
+
+.types {
+  background: #ecedf3;
+  padding-top: 92px;
+}
+.types .types-wrapper {
+  padding: 0 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 35px;
+}
+.types .types-wrapper h6 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #22218c;
+}
+.types .types-wrapper p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #22218c;
+}
+.types .types-wrapper .type {
+  border-bottom: 1px solid #22218c;
+  padding-bottom: 1rem;
+}
+.loadmore-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.loadmore-btn button {
+  background: #22218c;
+  padding: 8px 34px;
+  border-radius: 8px;
+  transition: 0.2s ease-in-out;
+}
+.loadmore-btn button {
+  color: #fff;
+}
+.loadmore-btn button:hover {
+  background: #fff;
+}
+.loadmore-btn button:hover {
+  color: #22218c;
+}
+
+.common-cancer-main {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  text-align: center;
+  padding: 0 1.2rem;
+  margin-bottom: 4rem;
+}
+.common-cancer-main h4 {
+  font-size: 47px;
+  font-weight: 700 !important;
+  color: #22218c;
+  margin-bottom: 1.2rem;
+}
+._progress .progress-wrapper {
+  display: flex;
+  gap: 3rem;
+}
+._progress .progress-wrapper .first {
+  width: 42%;
+}
+._progress .progress-wrapper .first img.main {
+  width: 100%;
+  height: 740px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+._progress .progress-wrapper .first .images-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+._progress .progress-wrapper .first .images-child img {
+  height: 234px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+._progress .progress-wrapper .secound {
+  flex: 1;
+}
+._progress .progress-wrapper .progress-step {
+  display: flex;
+  align-items: start;
+  align-items: flex-start;
+  gap: 2rem;
+}
+._progress .progress-wrapper .progress-step button {
+  min-width: 66px;
+  font-size: 35px;
+  font-weight: 400;
+  height: 66px;
+  color: #22218c;
+  border-radius: 100%;
+  border: 1px solid #22218c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  z-index: 10;
+}
+.btn-outer {
+  background: #fff;
+  padding: 0.7rem 0;
+  z-index: 10;
+}
+._progress .progress-wrapper .progress-step h5 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  color: #22218c;
+}
+
+._progress .progress-wrapper .progress-step p {
+  margin-bottom: 26px;
+  color: #22218c;
+}
+
+._progress .progress-wrapper .progress-step .line {
+  position: absolute;
+  background: #22218c;
+  left: 2rem;
+  height: 100%;
+  width: 2px;
+  top: 0px;
+}
+
+.listing-2 {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+}
+.listing-2 .list {
+  background: #d9d9d9;
+  border-radius: 16px;
+  padding: 18px;
+}
+.listing-2 .list .content {
+  padding-left: 90px;
+  margin-top: 60px;
+  color: #22218c;
+}
+.listing-2 .list .content h5 {
+  font-weight: 700;
+  color: #22218c;
+  margin-bottom: 8px;
+  font-size: 32px;
+}
+.listing-2 .list .content p {
+  color: #22218c;
+}
+.listing-2 button {
+  min-width: 65px;
+  font-size: 35px;
+  font-weight: 400;
+  height: 65px;
+  color: #22218c;
+  border-radius: 100%;
+  border: 1px solid #22218c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  z-index: 10;
+}
+.listing-3 {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 45px;
+}
+
+.listing-3 .list .content {
+  margin-top: 1rem;
+}
+.listing-3 .border,
+._border {
+  width: 100%;
+  padding-top: 2px;
+  background: #22218c;
+}
+.listing-3 .list .content h5 {
+  font-weight: 700;
+  color: #22218c;
+  margin-bottom: 8px;
+  font-size: 32px;
+}
+.listing-3 .list .content p {
+  color: #22218c;
+  margin-top: 12px;
+}
+.listing-3 button {
+  min-width: 65px;
+  font-size: 35px;
+  font-weight: 400;
+  height: 65px;
+  color: #22218c;
+  border-radius: 100%;
+  border: 1px solid #22218c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  z-index: 10;
+}
+.nobg {
+  background: transparent !important;
+  margin-top: 6rem;
+}
+.tags_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.tags_list li {
+  width: fit-content;
+  position: relative;
+  display: block;
+  font-size: 15px;
+  color: var(--primary-color);
+  padding: 5px 10px;
+  font-weight: 400;
+  text-align: center;
+  background: #fff;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.remove_border {
+  border-bottom: 1px solid transparent !important;
+}
+.blog_page_head {
+  background: #ecedf3;
+  margin-top: -20px;
+}
+.b_wrapper {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 72px 12px;
+}
+.b_wrapper h2 {
+  font-weight: 600;
+  color: #22218c;
+  margin-bottom: 1rem;
+  font-size: 47px;
+}
+.b_wrapper p {
+  color: #22218c;
+  font-size: 18px;
+}
+._h {
+  font-weight: 600 !important;
+  font-size: 20px;
+  color: #1d1d1d;
+}
+.cancer_treted ul li {
+  font-size: 18px !important;
+  padding: 8px 16px !important;
+}
+.t-70 {
+  top: 69px !important;
+}
+.exp-content {
+  margin-bottom: 1rem;
+}
+.exp-content .para,
+.exp-content p {
+  display: contents;
+  margin-right: 2px;
+}
+
+.top_heading {
+  margin-bottom: 10px;
+  margin-top: -20px;
+  font-weight: 600;
+  color: #22218c;
+}
+.candidate-block-three {
+  margin-top: 32px;
+}
+.hide_dp {
+  display: none;
+}
+.news_feed_item {
+  overflow: hidden;
+}
+.news_feed_item iframe {
+  max-width: 395px !important;
+  max-height: 797px !important;
+}
+
+.sticky {
+  top: 97px;
+}
+
+@media (max-width: 768px) {
+  .types .types-wrapper {
+    grid-template-columns: 1fr;
+    padding: 0 1.2rem;
+  }
+  .types .types-wrapper h6 {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  ._progress .progress-wrapper {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+  }
+  ._progress .progress-wrapper .first {
+    width: 100%;
+  }
+  ._progress .progress-wrapper .secound {
+    flex: 1;
+  }
+  ._progress .progress-wrapper .progress-step .line {
+    height: calc(100%);
+  }
+  .listing-2 {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+  .listing-2 .list .content {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+  .listing-3 {
+    grid-template-columns: 1fr !important;
+  }
+  .b_wrapper h2 {
+    font-size: 32px;
+  }
+  .b_wrapper p {
+    font-size: 18px;
+  }
+  .common-cancer-main h4 {
+    font-size: 28px;
+  }
+  ._progress .progress-wrapper .progress-step h5 {
+    font-size: 20px;
+  }
+  ._progress .progress-wrapper .progress-step button,
+  .listing-2 button,
+  .listing-3 button {
+    min-width: 40px;
+    font-size: 24px;
+    height: 40px;
+  }
+  ._progress .progress-wrapper .progress-step .line {
+    left: 1.2rem;
+    top: 0px;
+  }
+  ._progress .progress-wrapper .progress-step {
+    gap: 1rem;
+  }
+  .listing-2 .list .content h5,
+  .listing-3 .list .content h5 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1180px) {
+  .listing-2 .list .content {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+  .listing-2 {
+    gap: 25px;
+  }
+  .listing-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 460px) {
+  ._progress .progress-wrapper .progress-step .line {
+    height: calc(100%);
+  }
+  ._progress .progress-wrapper .first img.main {
+    height: 360px;
+  }
+  ._progress .progress-wrapper .first .images-child img {
+    height: 100px;
+  }
+  .top_heading {
+    display: none;
+  }
+  .hide_dp {
+    display: block;
+  }
+}
