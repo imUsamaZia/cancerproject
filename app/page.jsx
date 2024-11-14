@@ -11,7 +11,7 @@ import {
   fetchPosts,
   fetchSEOData,
   fetchTestimonials,
-} from "../lib/api/fetchData";
+} from "@/lib/api/fetchData";
 
 export async function generateMetadata() {
   const seo = await fetchSEOData();
